@@ -1,5 +1,4 @@
 import "./home.css";
-import "./homeResponsive.css";
 import photoBg from "../images/backgroung/homeBg.jpg";
 import { Link } from "react-router-dom";
 import { BsArrowRight, BsTelephone } from "react-icons/bs";

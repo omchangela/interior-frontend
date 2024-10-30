@@ -381,105 +381,6 @@
     padding: 0% 8% 0 0;
     margin: 0 8% 0 0;
 }
-
-/* ARTICLES */
-.articleNews {
-    width: 70%;
-    margin: 5% auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.articleNews>h1 {
-    margin: 0;
-}
-
-.articleNews>p{
-    width: 70%;
-    font-family: 'Jost';
-    color: #4D5053;
-}
-
-.articles {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.article {
-    width: 28%;
-    padding: 2%;
-    border-radius: 30px;
-}
-
-.nochosen {
-    background-color: transparent;
-}
-
-.chosen {
-    background-color: #F4F0EC;
-}
-
-.article-header {
-    width: 100%;
-    object-fit: cover;
-}
-
-.article-header>img {
-    width: 100%;
-    border-top-right-radius: 15%;
-    border-top-left-radius: 15%;
-}
-
-.article-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
-
-.article-content>p{
-    font-family: 'Dm Serif Display';
-    font-size: 17px;
-    width: 80%;
-}
-
-.ac-detail {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ac-detail>p {
-    width: 70%;
-    text-align: start;
-    color: #4D5053;
-    font-size: 13px;
-    font-family: 'Jost';
-}
-
-.ac-detail>a {
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.ac-detail>a>button{
-    width: 50%;
-    border-radius: 50%;
-    padding: 15%;
-    background-color: #F4F0EC;
-    border: none;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
 /* INTERNO */
 .h-interno {
     width: 70%;
@@ -520,30 +421,6 @@
 .home {
     width: 100%;
     margin: 0;
-}
-.homeNews {
-    width: 90%;
-    height: 130vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 10%;
-    border-bottom-left-radius: 25%;
-    margin-bottom: 5%;
-}
-
-.homeNews > h1 {
-    width: 30%;
-    font-size: 50px;
-    margin: 0;
-}
-
-.homeNews > p {
-    width: 40%;
-    color: #4D5053;
-    font-family: 'Jost';
 }
 
 /* Responsive styles */

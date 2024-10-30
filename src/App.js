@@ -2,7 +2,6 @@ import './App.css';
 import { Contact } from './contact/contact';
 import { Header } from './headerFooter/header';
 import { Footer } from './headerFooter/footer';
-import { PricingPlan } from './pricingPlan/pricingPlan';
 import { ProjectDetails } from './projectDetails/projectDetails';
 import { About } from './about/about';
 import { NotFound } from './404/404';
@@ -24,7 +23,6 @@ function App() {
       <Header />
       <Routes>
         <Route path='/contact' element={<Contact/>}></Route>
-        <Route path='/pricing' element={<PricingPlan/>}></Route>
         <Route path='/project-details' element={<ProjectDetails/>}></Route>
         <Route path='/aboutus' element={<About/>}></Route>
         <Route path='/error' element={<NotFound/>}></Route>
