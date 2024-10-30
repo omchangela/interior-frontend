@@ -1,0 +1,217 @@
+.contact {
+    width: 100%;
+}
+
+.contact-header {
+    display: flex;
+    height: 42vh;
+    font-family: 'DM Serif Display';
+    background-repeat: no-repeat;
+    background-image: url("../images/backgroung/contact-bg.jpg");
+    margin-bottom: 10%;
+    background-size: cover;
+}
+
+.contact-header > h1 {
+    width: 20%;
+    padding: 2% 3% 0.5% 3%;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-self: flex-end;
+    text-align: center;
+    margin: 0 auto;
+    color: #292F36;
+}
+
+.contact-header > h1 > p {
+    color: #4D5053;
+    font-size: 14px;
+    font-family: Jost;
+}
+
+.contact-form a{
+    color: white;
+}
+.contact-content {
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-content > h2 {
+    width: 50%;
+    font-size: 30px;
+    padding: 10% 0% 5% 0%;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.contact-form > h2 {
+    text-align: center;
+    font-family: DM Serif Display;
+    width: 25%;
+}
+
+.contact-form-info {
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 5% 0%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact-form-info > div {
+    text-align: center;
+}
+
+.contact-form-info > .icons > p {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.icon {
+    border: 1px solid white;
+    color: #007bff;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.contact-smedias {
+    margin-top: 20%;
+}
+
+.contact-smedias > ul {
+    display: flex;
+    padding: 0;
+}
+
+.contact-smedias > ul > li {
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.contact-form-fill {
+    width: 60%;
+}
+
+.contact-form-fill > div {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+.contact-form-fill > div > input,
+.contact-form-fill > div > textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-left: 5%;
+    width: 100%; /* Full width for better responsiveness */
+}
+
+.contact-form-fill > .nameEmail > input,
+.contact-form-fill > .subjectPhone > input {
+    margin-bottom: 10%;
+    height: 30px;
+}
+
+.contact-form-fill > .interested {
+    width: 100%;
+}
+
+.contact-form-fill > .send {
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form-fill > .send > button {
+    width: 30%;
+    padding: 3% 0%;
+    border-radius: 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 8% 0%;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .contact-header > h1 {
+        width: 90%; /* Full width on smaller screens */
+    }
+
+    .contact-content > h2 {
+        width: 90%; /* Full width for headings */
+        font-size: 24px; /* Smaller font size */
+    }
+
+    .contact-form {
+        flex-direction: column; /* Stack form elements vertically */
+    }
+
+    .contact-form-info,
+    .contact-form-fill {
+        width: 100%; /* Full width for both sections */
+    }
+
+    .contact-form-fill > .nameEmail,
+    .contact-form-fill > .subjectPhone {
+        flex-direction: column; /* Stack inputs vertically */
+    }
+
+    .contact-form-fill > .send > button {
+        width: 100%; /* Full width for the button */
+    }
+}
+
+@media (max-width: 380px) {
+    .contact-header > h1 {
+        padding: 5% 3%; /* More padding on small screens */
+    }
+
+    .contact-content > h2 {
+        font-size: 20px; /* Adjust heading size */
+    }
+
+    .contact-form > h2 {
+        width: 100%; /* Full width for heading */
+    }
+
+    .contact-smedias > ul {
+        flex-direction: column; /* Stack social media icons vertically */
+        align-items: center; /* Center items */
+    }
+
+    .contact-smedias > ul > li {
+        margin-left: 0; /* Reset margin for stacked layout */
+        margin-bottom: 10px; /* Space between items */
+    }
+}

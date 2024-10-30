@@ -1,0 +1,216 @@
+.serviceSingle {
+    width: 100%;
+}
+
+.serviceS-header {
+    display: flex;
+    height: 42vh;
+    font-family: 'DM Serif Display';
+    background-repeat: no-repeat;
+    background-image: url("../images/backgroung/serviceSingleBg.jpg");
+    margin-bottom: 10%;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.serviceS-header > h1 {
+    width: auto;
+    padding: 2% 3% 0.5% 3%;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 0 auto;
+    color: #292F36;
+}
+
+.serviceS-header > h1 > p {
+    color: #4D5053;
+    font-size: 14px;
+    font-family: Jost;
+}
+
+.serviceS-info {
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Responsive detail section */
+.ss-info-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.ss-info-detail > h1, 
+.ss-info-detail > p {
+    width: 100%;
+    margin-right: 0;
+    text-align: justify;
+}
+
+.ss-info-detail > p {
+    color: #4D5053;
+    font-family: 'Jost';
+}
+
+.ss-info-detail > p > span {
+    color: #CDA274;
+}
+
+.ss-info-brands, .ss-info-video, .ss-pointers, .go-portfolio, .experience {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.ss-info-brands > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ss-info-brands > ul > ol {
+    width: 20%;
+}
+
+.ss-info-video .react-player {
+    border-radius: 20px;
+}
+
+.ss-pointers {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.ss-pointer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ss-pointer > ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.ss-pointer > ul > li {
+    width: 100%;
+    line-height: 1.6em;
+    font-family: 'Jost';
+    color: #4D5053;
+    padding-left: 5%;
+}
+
+.go-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gp-img {
+    width: 100%;
+}
+
+.gp-img > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.gp-text {
+    width: 100%;
+}
+
+.gp-text > p {
+    font-family: 'Jost';
+    color: #4D5053;
+}
+
+.experience {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+.experience > div {
+    margin: 2% 0;
+}
+
+.s-project, .a-project {
+    padding: 5% 0;
+    border: none;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .serviceS-info {
+        width: 80%;
+    }
+
+    .ss-info-detail {
+        flex-direction: row;
+    }
+
+    .ss-info-detail > h1 {
+        width: 40%;
+        margin-right: 5%;
+    }
+
+    .ss-info-detail > p {
+        width: 49%;
+    }
+
+    .ss-pointers {
+        flex-direction: row;
+    }
+
+    .ss-pointer {
+        width: 48%;
+    }
+
+    .go-portfolio {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .gp-img {
+        width: 50%;
+    }
+
+    .gp-text {
+        width: 40%;
+    }
+
+    .experience {
+        width: 70%;
+        flex-direction: row;
+        padding: 5% 15%;
+    }
+
+    .s-project, .a-project {
+        padding: 0;
+        border-right: 1px solid #CDA274;
+    }
+}
+
+@media (min-width: 1024px) {
+    .serviceS-header > h1 {
+        width: 20%;
+    }
+
+    .experience > div > .num {
+        font-size: 45px;
+    }
+}
